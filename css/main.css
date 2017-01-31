@@ -1,0 +1,51 @@
+html {
+  font-family: Overpass, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+a {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .75);
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff5e3a;
+  border: rgba(255, 255, 255, .75);
+}
+
+.space-bubbles, .super-domes {
+  border-bottom: 2.75px solid rgba(255, 255, 255, .25);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-bubbles, .super-domes {
+    border-bottom: none;
+    border-right: 2px solid rgba(255, 255, 255, .25);
+    padding: 1em;
+  }
+
+  .space-bubbles, .super-domes, .mecha-stilts {
+  width: 33.3333%;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mecha-stilts {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+}
